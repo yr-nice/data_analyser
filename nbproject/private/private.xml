@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
+        <file>
+            <url>src/com/mu/stock/ui/DataAnalyserView.java</url>
+            <line>809</line>
+            <line>1114</line>
+            <line>1116</line>
+        </file>
+        <file>
+            <url>src/com/mu/stock/entity/Account.java</url>
+            <line>331</line>
+        </file>
+        <file>
+            <url>src/com/mu/stock/ui/ChartView.java</url>
+            <line>798</line>
+            <line>1043</line>
+            <line>1112</line>
+            <line>1191</line>
+            <line>1194</line>
+        </file>
+        <file>
+            <url>src/com/mu/stock/ui/AccountTxnView.java</url>
+            <line>815</line>
+            <line>816</line>
+            <line>850</line>
+            <line>1135</line>
+        </file>
+    </editor-bookmarks>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0">
+        <file>
+            <url>src/com/mu/stock/ui/ChartView.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>798</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1043</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1112</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1191</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1194</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/com/mu/stock/ui/DataAnalyserView.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>809</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1114</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1116</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/com/mu/stock/ui/AccountTxnView.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>815</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>816</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>850</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1135</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/com/mu/stock/entity/Account.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>331</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+    </open-files>
+</project-private>

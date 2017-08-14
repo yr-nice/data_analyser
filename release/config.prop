@@ -1,0 +1,56 @@
+quartz.jobs=realtime.sg
+
+quartz.realtime.sg.url=http://www.sgx.com/JsonRead/JsonData?qryId=Stock&timeout=30
+quartz.realtime.sg.class=com.mu.stock.data.collector.SGRealtime
+quartz.realtime.sg.cron1=*/20 50-59 8 ? * MON-FRI
+quartz.realtime.sg.cron2=*/20 * 9-16 ? * MON-FRI
+quartz.realtime.sg.cron3=*/20 0-20 17 ? * MON-FRI
+
+chart.indicator.Candlestick.Main.5.CandlestickRenderer: y=<h>,<l>,<o>,<c>,<v>
+chart.indicator.Gravity.Main.5: y=gvt(<c>,30,72)&color=blue|y=am(gvt(<c>,30,72),1.1)&color=blue|y=am(gvt(<c>,30,72),0.9)&color=blue
+chart.indicator.PriceChannel.Main.5: y=max(<h>,5,-1)&color=blue|y=min(<l>,5,-1)&color=blue
+chart.indicator.BoollingerBand.Main.5: y=sma(<c>,20)&color=blue|y=as(sma(<c>,20),sp(<c>,20))&color=blue|y=aa(sma(<c>,20),sp(<c>,20))&color=blue
+chart.indicator.Line.Main.5: y=<c>
+chart.indicator.WeightedClose.Main.5: y=ad(aa(aa(am(<c>,2),<h>),<l>),4)&color=blue
+chart.indicator.SMA.Main.5: y=sma(<c>,30)&color=blue
+chart.indicator.EMA.Main.5: y=ema(<c>,17)
+chart.indicator.DEMA.Main.5: y=dema(<c>,50)&color=blue
+chart.indicator.TP.Main.5: y=ad(aa(aa(<c>,<h>),l),3)&color=red
+chart.indicator.TEMA.Main.5: y=aa(as(am(ema(<c>,21),3),am(ema(ema(<c>,21),21),3)),ema(ema(ema(<c>,21),21),21))&color=blue
+chart.indicator.MP.Main.5: y=ad(aa(<l>,<h>),2)&color=red
+chart.indicator.Vol.Vol.1.XYBarRenderer: y=<v>
+chart.indicator.ADL.ADL.1: y=adl(<h>,<l>,<c>,<v>)&color=blue
+chart.indicator.Aroon.Aroon.1: y=aroon(<c>,14,1)&color=blue|y=aroon(<c>,14,-1)&color=red|y=30&color=black|y=70&color=black
+chart.indicator.ATR.ATR.1: y=atr(<h>,<l>,<c>,3)&color=black
+chart.indicator.ChaikinMF.ChaikinMF.1: y=ckm(<h>,<l>,<c>,<v>,21)&color=red|y=0&color=blue
+chart.indicator.ChaikinO.ChaikinO.1: y=cko(<h>,<l>,<c>,<v>,3,10)&color=blue|y=0&color=black
+chart.indicator.Chaikinv.Chaikinv.1: y=ckv(<h>,<l>,10,10)&color=blue|y=0&color=black
+chart.indicator.CMO.CMO.1: y=cmo(<c>,20)&color=red|y=0&color=blue
+chart.indicator.DPO.DPO.1: y=dpo(<c>,20)&color=red|y=0&color=blue
+chart.indicator.IMI.IMI.1: y=imi(<o>,<c>,14)&color=red|y=50&color=blue
+chart.indicator.MACD.MACD.1: y=aa(ema(<c>, 12), am(ema(<c>,26), -1))&color=red|y=ema(aa(ema(<c>,12), am(ema(<c>,26), -1)),9)&color=blue|y=0&color=black
+chart.indicator.MassIndex.MassIndex.1: y=mi(<h>,<l>,25)&color=blue
+chart.indicator.MFI.MFI.1: y=mfi(<h>, <l>, <c>, <v>, 14)
+chart.indicator.MktFI.MktFI.1: y=ad(as(<h>,<l>),<v>)&color=blue
+chart.indicator.Momentum.Momentum.1: y=mtm(<c>,14)&color=black
+chart.indicator.OBV.OBV.1: y=obv(<c>,<v>)
+chart.indicator.Performance.Performance.1: y=am(ad(as(<c>,ai(<c>,0)),ai(<c>,0)),100)&color=red|y=0&color=blue
+chart.indicator.PriceOsc.PriceOsc.1: y=am(ad(as(ema(<c>,10),ema(<c>,30)),ema(<c>,30)),100)&color=red|y=0&color=blue
+chart.indicator.PriceROC.PriceROC.1: y=roc(<c>,12)&color=red|y=0&color=blue
+chart.indicator.PVT.PVT.1: y=pvt(<c>,<v>)&color=red
+chart.indicator.Qstick.Qstick.1: y=sma(as(<c>,<o>),5)&color=red|y=0&color=blue
+chart.indicator.RS.RS.1: y=ad(<c>,<c>)&color=blue
+chart.indicator.RSI.RSI.1: y=rmi(<c>,14,1)&color=red|y=80&color=blue|y=20&color=blue
+chart.indicator.RMI.RMI.1: y=rmi(<c>,14,4)&color=red|y=80&color=blue|y=20&color=blue
+chart.indicator.SP.Sp.1: y=sp(<c>,10)&color=red
+chart.indicator.StochasticR.StochasticR.1: y=stor(<h>, <l>, <c>, 10, 3)
+chart.indicator.Trix.Trix.1: y=trix(<c>,15)&color=red|y=trix(<c>,9)&color=black|y=0&color=blue
+chart.indicator.VHF.VHF.1: y=vhf(<c>,5)&color=red
+chart.indicator.VolOsc.VolOsc.1: y=am(ad(as(sma(<v>,5),sma(<v>,10),sma(<v>,10),100)&color=red|y=0&color=blue
+chart.indicator.VolROC.VolROC.1: y=roc(<v>,12)&color=red|y=0&color=blue
+chart.indicator.WilliamsR.WilliamsR.1: y=wlmr(<h>,<l>,<c>,14)&color=red|y=-20&color=blue|y=-80&color=blue
+
+
+
+
+

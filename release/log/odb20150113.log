@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2015-01-13 11:31:47 #1 store] 
+Database '/Users/pengmu/Project/Code/SelfCreatedTool/data_analyser/release/stock.odb' is opened by 10382@peng-mus-MacBook-Pro-2.local
+
+[2015-01-13 11:31:47 #2 type] 
+Type com.mu.stock.entity.Company is not enhanced.
+
+[2015-01-13 11:31:47 #3 type] 
+Type com.mu.stock.entity.RealtimeDataLog is not enhanced.
+
+[2015-01-13 11:31:48 #4 type] 
+Type com.mu.stock.entity.DailyPriceLog is not enhanced.
+
+[2015-01-13 11:31:48 #5 type] 
+Type com.mu.stock.entity.Account is not enhanced.
+
+[2015-01-13 11:31:48 #6 type] 
+Type com.mu.stock.entity.TxnLog is not enhanced.
+
+[2015-01-13 11:31:48 #7 type] 
+Type com.mu.stock.entity.AccountLog is not enhanced.
+
